@@ -17,7 +17,7 @@ class Solution {
         for(int i=0; i<n; i++) {
             String row = "";
             
-            //돌라면서 2진수 스트링 만들기
+            //돌리면서 2진수 스트링 만들기
             String bin1 = Integer.toBinaryString(arr1[i]);
             String bin2 = Integer.toBinaryString(arr2[i]);
             
